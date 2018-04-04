@@ -1,5 +1,7 @@
 # to-postgis
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stepankuzmin/to-postgis.svg)](https://greenkeeper.io/)
+
 Loads files in different spatial formats into PostGIS using ogr2ogr.
 
 ## Install
