@@ -1,10 +1,17 @@
 {
   "name": "to-postgis",
   "version": "1.0.0",
-  "description": "Loads files in different spatial formats into PostGIS using ogr2ogr.",
+  "description": "Loads files in different spatial formats into PostGIS using ogr2ogr",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": ["postgis", "geojson", "ogr2ogr"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stepankuzmin/to-postgis.git"
+  },
+  "bin": {
+    "to-postgis": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "cz": "git-cz",
@@ -22,21 +29,21 @@
     "*.{js,json,css,md}": ["prettier-eslint --write", "git add"]
   },
   "dependencies": {
-    "ogr2ogr": "1.2.1",
-    "pg": "7.4.1"
+    "ogr2ogr": "^1.2.1",
+    "pg": "^7.4.1"
   },
   "devDependencies": {
-    "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.1.0",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb-base": "12.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "2.10.0",
-    "husky": "0.14.3",
-    "lint-staged": "7.0.0",
-    "prettier": "1.11.1",
-    "prettier-eslint": "8.8.1",
-    "prettier-eslint-cli": "4.7.1",
-    "standard-version": "4.3.0"
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.1",
+    "standard-version": "^4.3.0"
   }
 }
