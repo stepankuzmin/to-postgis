@@ -1,0 +1,18 @@
+{
+  "extends": ["prettier", "airbnb-base"],
+  "plugins": ["import"],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreStrings": true,
+        "ignoreUrls": true,
+        "ignoreComments": true
+      }
+    ],
+    "quotes": ["error", "single"]
+  }
+}
