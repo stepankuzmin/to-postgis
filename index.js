@@ -25,10 +25,9 @@ connectionParameters.getLibpqConnectionString((error, libpqConnectionString) => 
     .project('EPSG:3857')
     .exec((error2) => {
       if (error2) {
-        console.error(error);
+        console.log(error2);
         process.exit(-1);
       }
-
       console.log('Done!');
     });
 });
