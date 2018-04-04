@@ -4,7 +4,11 @@
   "description": "Loads files in different spatial formats into PostGIS using ogr2ogr",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
   "license": "MIT",
-  "keywords": ["postgis", "geojson", "ogr2ogr"],
+  "keywords": [
+    "postgis",
+    "geojson",
+    "ogr2ogr"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/stepankuzmin/to-postgis.git"
@@ -26,7 +30,10 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier-eslint --write", "git add"]
+    "*.{js,json,css,md}": [
+      "prettier-eslint --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "ogr2ogr": "^1.2.1",
