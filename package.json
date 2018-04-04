@@ -1,6 +1,6 @@
 {
   "name": "to-postgis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads files in different spatial formats into PostGIS using ogr2ogr",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
   "license": "MIT",
